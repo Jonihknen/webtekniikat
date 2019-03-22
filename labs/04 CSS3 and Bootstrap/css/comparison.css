@@ -1,0 +1,33 @@
+caption {
+    font-size: 150%;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+table, th, td{
+    border-style: outset;
+    border-width: 1px;
+    border-color: black;
+    border-collapse: collapse;
+}
+table {
+    width: 60%;
+    height: 100px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.ekarivi {
+    background-color: #FF1400;
+    color: white;
+}
+.taulukko_otsikko {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.otsikko {
+    font-size: 130%;
+    font-family: Arial;
+    margin-left: 15px;
+}
