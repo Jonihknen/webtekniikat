@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: coral;
+}
+h1, h2 {
+    color: blue;
+    font-weight: bold;
+}
+h1 {
+    font-size: 4.0em;
+}
+ul, ol {
+    font-size: 0.8em;
+    color: #4d4d4d;
+    border-style: groove;
+    border-width: 15px;
+    border-color: royalblue;
+}
+p, ol, ul {
+    margin-left: 3%;
+}
+figcaption {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+p.copyright_notice {
+    font-size: 0.8em;
+}
+#special {
+    font-size: 0.8em;
+    color: yellowgreen;
+    font-style: italic;
+    border-left: 2px solid black;
+    margin-left: 40px;
+    padding-left: 10px;
+}
