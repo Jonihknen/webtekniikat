@@ -1,0 +1,57 @@
+img{
+    size: px;
+}
+#berries{
+    border: 2px solid lightskyblue;
+    margin: 8px;
+}
+img.resize{
+    width:11%;
+    height:11%;
+}
+p.one {
+    border: 1px solid black;
+    padding: 3em;
+    margin:  1em;
+    margin-bottom: 0em;
+}
+body{
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 100px;
+    margin: 3px;
+    font-weight: lighter;
+}
+figcaption{
+    font-size: 85%;
+}
+section#one {
+    width: 50%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0em;
+    padding: 1em;
+    background-color: lightblue;
+}
+section#two {
+    margin: 0em;
+    padding: 1em;
+    background-color: sandybrown;
+}
+section#three {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0em;
+    padding: 1em;
+    background-color: palevioletred;
+}
+p.tt{
+    font-size: 30px;
+    margin: 0px;
+}
+p.bb{
+    font-style: italic;
+    margin: 4px;
+}
