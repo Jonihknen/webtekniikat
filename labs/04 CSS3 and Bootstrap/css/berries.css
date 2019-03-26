@@ -28,22 +28,24 @@ figcaption{
     font-size: 85%;
 }
 section#one {
-    width: 50%;
+    margin-left: 40%;
+    margin-right: 40%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin: 0em;
     padding: 1em;
     background-color: lightblue;
 }
 section#two {
-    margin: 0em;
+    margin-left: 40%;
+    margin-right: 40%;
     padding: 1em;
     background-color: sandybrown;
 }
 section#three {
+    margin-left: 40%;
+    margin-right: 40%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin: 0em;
     padding: 1em;
     background-color: palevioletred;
 }
