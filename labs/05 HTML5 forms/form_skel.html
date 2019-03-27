@@ -5,53 +5,65 @@
 	-->
 	<head>
 		<meta charset="utf-8"/>
+		<link href="form.css" type="text/css" rel="stylesheet" />
 		<title>Demonstrating HTML forms</title>
 	</head>
 	
 	<body>
 		<h1>Turnitin</h1>
-		<form  lang="fi" action="">
-			<div>
-				Name: <input type="text" name="studentname"/>
+		<form  lang="fi">
+			<div class="container">
+				Name: <input type="text" name="studentname" placeholder="Name"/>
 			</div>
-			<div>
-				Student id: <input type="text" name="id"  />
+			<div class="container">
+				Student id: <input type="text" pattern="\d{7}" name="id" placeholder="ID"/>
 			</div>
-			<div>
-				Email:
+			<div class="container">
+				Email: <input type="email" name="email" placeholder="Email"/>
 				<!--
 				Make an input named "email"
 				-->
 			</div>
-			<div>
-				Assignment:
+			<div class="container">
+				Assignment: <input type="text" name="assigment" placeholder="Assigment"/>
 				<!--
 				Make an input named "assignment"
 				-->
 				
 			</div>
 
-			<div>
-				Code:
+			<div class="container">
+				Code: <input type="number" name="code" placeholder="Code"/>
 				<!--
 				Make an input named "code" which is a text area to put student's code into.
 				-->
 				
 			</div>
 			<div>
-				Cheat:
+
+				<label>Cheat<input type="radio" name="cheat"></label><br>
 			<!--
 				Make an input named "cheat" which is a check box the student must check.
 			-->
 			</div>
-			<div>
-				Pay:
+			<div class ="container2 tausta">
+				<fieldset>
+					<legend>PAY</legend>
+					<label><input type="checkbox" name="visa" id="visa" value="Visa">Visa</label><br>
+					<label><input type="checkbox" name="paypal" value="paypal">Paypal</label><br>
+					<label><input type="checkbox" name="mastercard" value="mastercard">Mastercard</label>
+				</fieldset>
 			<!--
 				Make an input named "payment" which is a radio box with possible values of visa, paypal, mastercard
 			-->
 			</div>
 			<div>
-				Score:
+				Score: <select name="score">
+					<option value="notknown">Not selected</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
 			<!--
 				Make an input named "score" which is a list of choices for the score 
 			-->

@@ -1,0 +1,29 @@
+body{
+    background-color: #bfbfbf;
+}
+h1{
+    font-size: 54px;
+    color: crimson;
+}
+.container {
+    width: 200px;
+    clear: both;
+}
+
+.container input {
+    width: 100%;
+    clear: both;
+}
+.container2{
+    width: 160px;
+}
+
+input[type="text"] {
+    color : blue;
+}
+input[type="submit"] {
+    font-weight : bold;
+}
+fieldset{
+    background-color: #a88a8a;
+}
