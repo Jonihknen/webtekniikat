@@ -1,0 +1,32 @@
+body {
+    background-color: mediumaquamarine;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: indigo;
+}
+
+figure#floating {
+    position: absolute;
+    top: 160px;
+    left: 600px;
+}
+dt{
+    font-size: 20px;
+    color: #1b1d26;
+}
+
+table, th, td {
+    border-style: outset;
+    border-width: 1px;
+    border-color: black;
+    border-collapse: collapse;
+    background-color: #a88a8a;
+}
+caption {
+font-size: 25px;
+ font-weight: bold;
+}
+
