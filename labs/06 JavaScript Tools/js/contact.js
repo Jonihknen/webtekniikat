@@ -11,6 +11,7 @@ function process() {
     
     // Get form references:
     var email = document.getElementById('email');
+    var fullname = document.getElementById('fullname');
     var comments = document.getElementById('comments');
     // Validate the email address:
     if (!email || !email.value 
@@ -18,6 +19,11 @@ function process() {
     || (email.value.indexOf('@') == -1)) {
         okay = false;
         alert('Please enter a valid email address!');
+    }
+    var letters = /^[a-zA-Z-' ]+$/
+    if (fullname.value.length > 100 || fullname.value.length < 3 || fullname.value.indexOf(' ') == -1 || !fullname.value.match(letters)){
+        okay = false;
+        alert('please enter your first and last name name between 3 and 100 letters')
     }
 
     // Validate the comments:
@@ -52,6 +58,7 @@ function process() {
     console.log(message);
     console.log("Email: " + email.value);
     console.log("Comments: " + comments.value);
+    console.log("fullname: " + fullname.value);
     alert(message);
 
     // Prevent submission for the purposes of this example:
