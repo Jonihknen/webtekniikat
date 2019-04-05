@@ -1,4 +1,4 @@
-// From: http://www.assemblesoft.com/examples/form/simpleform.html
+
 * {margin:0; padding:0;}
 
 html {
@@ -57,7 +57,6 @@ fieldset {
 	padding:0 0.5em 0.5em;
 }
 .date input {
-	background-image:url(../gfx/calendar-small.gif);
 	background-repeat:no-repeat;
 	background-position:100% 50%;
 }
@@ -135,7 +134,7 @@ textarea {
 }
 
 .error {
-	color: ##FF1400;
+	color: #FF1400;
 }
 /*
 :invalid {

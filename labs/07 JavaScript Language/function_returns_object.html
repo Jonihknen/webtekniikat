@@ -10,6 +10,7 @@
 		var years = [1955, 1957, 1948, 1954, 1961];
 		var colors = ["red", "blue", "tan", "yellow", "white"];
 		var convertible = [true, false];
+		var engin = makeEngine();
 
 		var rand1 = Math.floor(Math.random() * makes.length);
 		var rand2 = Math.floor(Math.random() * models.length);
@@ -25,13 +26,35 @@
 			color: colors[rand4],
 			passengers: rand5,
 			convertible: convertible[rand6],
-			mileage: 0
+			mileage: 0,
+            engine: engin
 		};
 		return car;
+
 	}
+	function makeEngine(){
+	  var cylinders = ["abc" , "bca", "adc", "vda"];
+	  var cc_volume = ["100", "200", "300", "400"];
+	  var fuel_type = ["bensa", "diisseli", "kiisseli"];
+	  var max_torgue = ["jotai", "jotai muuta", "jotai ihan muuta"];
+
+      var rand1 = Math.floor(Math.random() * 4);
+      var rand2 = Math.floor(Math.random() * 4);
+      var rand3 = Math.floor(Math.random() * 3);
+      var rand4 = Math.floor(Math.random() * 3);
+      var engine = {
+        cylinder: cylinders[rand1],
+        volume: cc_volume[rand2],
+        fuel: fuel_type[rand3],
+        torgue: max_torgue[rand4]
+      };
+      return engine;
+    }
 
 	function displayCar(car) {
 		console.log("Your new car is a " + car.year + " " + car.make + " " + car.model);
+		console.log("more stuff: " + car.engine.cylinder + ", " + car.engine.fuel
+        + ", " + car.engine.torgue + ", " + car.engine.volume);
 	}
 
 	var carToSell = makeCar();

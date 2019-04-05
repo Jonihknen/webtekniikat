@@ -38,9 +38,43 @@ function addTask() {
     
 } // End of addTask() function.
 
+function removeDublicates(tasks){
+    'use strict';
+
+    var c;
+    var len = tasks.length;
+    var result = [];
+    var obj = {};
+    for (c = 0; c<len; c++)  {
+        obj[tasks[c]] = 0;
+    }
+    for (c in obj) {
+        result.push(c);
+    }
+    console.log(result);
+    tasks = result;
+
+
+    var output = document.getElementById('output');
+
+
+    var message = '<h2>To-Do</h2><ol>';
+    for (var i = 0, count = tasks.length; i < count; i++) {
+        message += '<li>' + tasks[i] + '</li>';
+    }
+    message += '</ol>';
+    output.innerHTML = message;
+
+}
+
+
+
+
+
 // Initial setup:
 function init() {
     'use strict';
     document.getElementById('theForm').onsubmit = addTask;
+    document.getElementById('remove').onclick = removeDublicates;
 } // End of init() function.
 window.onload = init;

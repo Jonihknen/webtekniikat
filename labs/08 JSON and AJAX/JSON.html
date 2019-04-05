@@ -3,23 +3,44 @@
 <head>
   <meta charset="utf-8">
   <title> JSON </title>
-  <script>
 
-var fidoString = '{ "name": "Fido", "breed": "Mixed", "weight": 38 }';
-var fido = JSON.parse(fidoString);
-console.log("We have made a dog out of a string! " + fido.name);
-
-
-var fido2 = {
-	name: "Fido",
-	breed: "Mixed",
-	weight: 38
-};
-var fidoString = JSON.stringify(fido2);
-console.log("We made a string from a dog! " + fidoString);
-
-  </script>
 </head>
 <body>
+<div id="asdf">
+  <p>moi</p>
+</div>
+<div id="moi">
+  <p> moi</p>
+</div>
+<script>
+
+  var fidoString = '{ "name": "Fido", "breed": "Mixed", "weight": 38 }';
+  var fido = JSON.parse(fidoString);
+  console.log("We have made a dog out of a string! " + fido.name);
+
+
+  var fido2 = {
+    name: "Fido",
+    breed: "Mixed",
+    weight: 38
+  };
+  var fidoString = JSON.stringify(fido2);
+  console.log("We made a string from a dog! " + fidoString);
+
+  var employee = {
+    name: { first: "Colin",
+      second: "Stephen" },
+    title: "Assistant Lecturer"
+  };
+  var employeestring = JSON.stringify(employee);
+  document.getElementById("asdf").innerHTML = (employeestring);
+
+  var myobj = JSON.parse(employeestring);
+  var employeename = myobj.name;
+  var kkk = JSON.stringify(employeename);
+  document.getElementById("moi").innerHTML = (kkk);
+
+
+</script>
 </body>
 </html>

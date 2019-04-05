@@ -18,6 +18,18 @@ font-size:12px;
 color: #1b1d26;
 background-color: #f1f2d8;
 }
+#remove{
+    clear:both;
+    margin-left:150px;
+    width:125px;
+    height:31px;
+    background:#F1F2D8;
+    text-align:center;
+    line-height:20px;
+    color:#000000;
+    font-size:12px;
+    font-weight:bold;
+}
 p, h1, form, button{border:0; margin:0; padding:0;}
 .spacer{clear:both; height:1px;}
 /* ----------- My Form ----------- */
@@ -73,18 +85,21 @@ border:solid 1px #BFBD9F;
 width:200px;
 margin:2px 0 20px 10px;
 }
+
 #submit{
-clear:both;
-margin-left:150px;
-width:125px;
-height:31px;
-background:#F1F2D8;
-text-align:center;
-line-height:20px;
-color:#000000;
-font-size:12px;
-font-weight:bold;
-}
+     clear:both;
+     margin-left:150px;
+     width:125px;
+     height:31px;
+     background:#F1F2D8;
+     text-align:center;
+     line-height:20px;
+     color:#000000;
+     font-size:12px;
+     font-weight:bold;
+ }
+
+
 #output {
 	clear:both;
 	margin-bottom: 10px;

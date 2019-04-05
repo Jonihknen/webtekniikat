@@ -16,6 +16,10 @@ window.onload = function() {
 	} else if (div.attachEvent) {
 		div.attachEvent("click", handleClick);
 	}
+  var asdf = document.getElementById("asd");
+  if (asdf.addEventListener) {
+    asdf.addEventListener("mouseover", handleMouseover, false);
+  }
 };
 
 function handleClick(e) {
@@ -29,9 +33,27 @@ function handleClick(e) {
 	alert("You clicked on " + target.id);
 }
 
+function handleMouseover(e) {
+  var evt = e || window.event;
+  var target;
+  if (evt.target) {
+    target = evt.target;
+  }
+  document.getElementById("text").innerText = "mouseover " + target.id;
+}
+
   </script>
+
+
 </head>
 <body>
+<h1 id="text"></h1>
 <span id="clickme">Click me!</span>
+
+<div id="asd">
+  <p id="yksi">item 1</p>
+  <p id="kaksi">item 2</p>
+  <p id="kolme">item 3</p>
+</div>
 </body>
 </html>

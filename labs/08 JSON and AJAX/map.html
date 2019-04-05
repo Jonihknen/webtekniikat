@@ -7,9 +7,12 @@
 	window.onload = init;
 	function init() {
 		var map = document.getElementById("map");
+		map.onclick = listfiller;
 		map.onmousemove = showCoords;
 		var mydiv = document.getElementById("mydiv");
 		mydiv.onclick = addtext;
+		addElement();
+		mapclick();
 	}
 	
 	function showCoords(eventObj) {
@@ -27,6 +30,29 @@
 		} else {
 			alert("Looks like you have an old browser!");
 		}
+	}
+	function addElement () {
+		var newlist = document.createElement("ul");
+		newlist.setAttribute("id", "newlist");
+
+		var newContent = document.createTextNode("Koordinaatit muistiin");
+
+		newlist.appendChild(newContent);
+
+		var currentDiv = document.getElementById("mydiv");
+
+		document.body.insertBefore(newlist, currentDiv);
+	}
+
+
+	function listfiller(eventObj){
+		var x = eventObj.clientX;
+		var y = eventObj.clientY;
+			var node = document.createElement("LI");
+			var textnode = document.createTextNode("Map coordinates: " + x + ", " + y);
+			node.appendChild(textnode);
+			document.getElementById("newlist").appendChild(node);
+
 	}
   </script>
 </head>
