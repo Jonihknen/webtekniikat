@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c6f7a0d-15b8-4ee1-b33b-812a7ba69dd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/06 JavaScript Tools/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/labs/06 JavaScript Tools/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/06 JavaScript Tools/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/labs/06 JavaScript Tools/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/06 JavaScript Tools/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/06 JavaScript Tools/js/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/06 JavaScript Tools/js/membership.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/06 JavaScript Tools/js/membership.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/06 JavaScript Tools/js/notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/06 JavaScript Tools/js/notes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/06 JavaScript Tools/js/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/06 JavaScript Tools/js/shopping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/06 JavaScript Tools/switch_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/06 JavaScript Tools/switch_case.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/07 JavaScript Language/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/labs/07 JavaScript Language/css/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/07 JavaScript Language/function_returns_object.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/07 JavaScript Language/function_returns_object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/07 JavaScript Language/js/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/07 JavaScript Language/js/tasks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/07 JavaScript Language/object_methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/07 JavaScript Language/object_methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/07 JavaScript Language/simple_function.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/07 JavaScript Language/simple_function.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/08 JSON and AJAX/JSON.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/08 JSON and AJAX/JSON.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/08 JSON and AJAX/ajax_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/08 JSON and AJAX/ajax_basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/08 JSON and AJAX/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/08 JSON and AJAX/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/08 JSON and AJAX/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/08 JSON and AJAX/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/building_lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/building_lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/lecture_notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/lecture_notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/simple_dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/simple_dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/09 Single-Page Applications/simple_dom.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/09 Single-Page Applications/simple_dom.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,89 +17,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/js/notes.js">
+        <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/building_lists.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="153">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/map.html">
+        <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/lecture_notes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/switch_case.html">
+        <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/js/building_lists.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/notes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/JSON.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            <state relative-caret-position="544">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/ajax_basic.html">
+        <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/js/lecture_notes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
+            <state relative-caret-position="442">
+              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/07 JavaScript Language/simple_function.html">
+        <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/simple_dom.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/07 JavaScript Language/object_methods.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/07 JavaScript Language/function_returns_object.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/basic_math.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -139,6 +85,10 @@
         <option value="$PROJECT_DIR$/labs/08 JSON and AJAX/JSON.html" />
         <option value="$PROJECT_DIR$/labs/06 JavaScript Tools/js/notes.js" />
         <option value="$PROJECT_DIR$/labs/08 JSON and AJAX/ajax_basic.html" />
+        <option value="$PROJECT_DIR$/labs/09 Single-Page Applications/js/simple_dom.js" />
+        <option value="$PROJECT_DIR$/labs/09 Single-Page Applications/simple_dom.html" />
+        <option value="$PROJECT_DIR$/labs/09 Single-Page Applications/js/building_lists.js" />
+        <option value="$PROJECT_DIR$/labs/09 Single-Page Applications/js/lecture_notes.js" />
       </list>
     </option>
   </component>
@@ -186,20 +136,14 @@
               <item name="tehtävät" type="b2602c69:ProjectViewProjectNode" />
               <item name="tehtävät" type="462c0819:PsiDirectoryNode" />
               <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="06 JavaScript Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="09 Single-Page Applications" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tehtävät" type="b2602c69:ProjectViewProjectNode" />
               <item name="tehtävät" type="462c0819:PsiDirectoryNode" />
               <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="06 JavaScript Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="09 Single-Page Applications" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tehtävät" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehtävät" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="08 JSON and AJAX" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,12 +203,15 @@
       <workItem from="1554106467134" duration="416000" />
       <workItem from="1554111284611" duration="630000" />
       <workItem from="1554111943848" duration="5321000" />
-      <workItem from="1554284307245" duration="25906000" />
+      <workItem from="1554284307245" duration="26247000" />
+      <workItem from="1554479895791" duration="930000" />
+      <workItem from="1554716157363" duration="6718000" />
+      <workItem from="1554826708748" duration="2873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33923000" />
+    <option name="totallyTimeSpent" value="44785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,7 +226,7 @@
     <frame x="68" y="20" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27462685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2880597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,7 +239,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297546" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925372" visible="true" weight="0.3297546" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925372" weight="0.3297546" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.3297546" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -304,16 +251,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/js/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/.eslintrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -404,9 +341,6 @@
     <entry file="file://$PROJECT_DIR$/labs/05 HTML5 forms/form_skel.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/conditionals_booleans.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/labs/07 JavaScript Language/css/form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -455,27 +389,13 @@
     <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/dom_scripting.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/data/story.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/JSON.html">
+    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/js/notes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="1122">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
@@ -489,19 +409,52 @@
     <entry file="file://$PROJECT_DIR$/labs/07 JavaScript Language/object_methods.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/ajax_basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/data/books.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/css/notes.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/css/books.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/js/simple_dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/07 JavaScript Language/function_returns_object.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
+        <state relative-caret-position="593">
           <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/basic_math.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/conditionals_booleans.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/notes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/switch_case.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -510,24 +463,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/notes.html">
+    <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="357">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/06 JavaScript Tools/js/notes.js">
+    <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/JSON.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="459">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/ajax_basic.html">
+    <entry file="file://$PROJECT_DIR$/labs/08 JSON and AJAX/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
+        <state relative-caret-position="374">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/book_review.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/simple_dom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/js/building_lists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/building_lists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/lecture_notes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/09 Single-Page Applications/js/lecture_notes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
         </state>
       </provider>
     </entry>
