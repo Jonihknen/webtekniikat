@@ -33,14 +33,80 @@ function Coffee(roast, ounces) {
 	};
 }
 
-var coffee = new Coffee("House Blend", 12);
-console.log(coffee.order());
 
-var darkRoast = new Coffee("Dark Roast", 16);
-console.log(darkRoast.order());
 
-var specialBlend = new Coffee("Special Blend", 200);
-console.log(specialBlend.order());
+function Tea(type, ounces) {
+	this.type = type;
+	this.ounces = ounces;
+	this.getSteepTime = function() {
+		if (this.ounces === 8) {
+			return "5 minutes";
+        } else if (this.ounces === 12){
+			return "10 minutes";
+        } else if (this.ounces === 16) {
+			return "13 minutes";
+        }
+    };
+	this.getSize = function() {
+		if (this.ounces === 8) {
+			return "small";
+		} else if (this.ounces === 12) {
+			return "medium";
+		} else if (this.ounces === 16) {
+			return "large";
+		}
+	};
+    this.order = function() {
+	    var msg;
+	    switch (this.getSize()) {
+		    case "small":
+		    case "medium":
+		    case "large":
+			    msg = "You've ordered a " + this.getSize() + " " + this.type;
+			    break;
+		    default:
+			    msg = "We don't have a " + this.type + " in that size!";
+			    break;
+	    }
+	    return msg;
+    };
+    this.steeptime = function() {
+    	var msg;
+    	switch (this.getSteepTime()) {
+            case "5 minutes":
+            case "10 minutes":
+            case "13 minutes":
+	            msg = "steep time is " + this.getSteepTime();
+	            break;
+		    default:
+			    msg = "...";
+			    break;
+	    }
+	    return msg;
+    };
+    this.sip = function() {
+    	var msg;
+    	msg = "hmm, tasty";
+	    return msg;
+    }
+
+}
+
+
+
+var tea1 = new Tea("blacktea", 12);
+console.log(tea1.order());
+console.log(tea1.steeptime());
+console.log(tea1.sip());
+
+var tea2 = new Tea("greentea", 16);
+console.log(tea2.order());
+console.log(tea2.steeptime());
+console.log(tea1.sip());
+
+var tea3 = new Tea("supertea", 200);
+console.log(tea3.order());
+console.log(tea3.steeptime());
 
 </script>
 </head>
