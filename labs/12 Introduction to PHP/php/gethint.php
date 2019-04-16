@@ -36,7 +36,9 @@ $q = $_REQUEST["q"];
 
 $hint = "";
 
-// lookup all hints from array if $q is different from "" 
+$lista = array();
+
+// lookup all hints from array if $q is different from ""
 if ($q !== "") {
     $q = strtolower($q);
     $len=strlen($q);
@@ -45,12 +47,17 @@ if ($q !== "") {
             if ($hint === "") {
                 $hint = $name;
             } else {
+                //$asd ->firstname = $hint;
+                array_push($lista, $hint);
+                //$lista = array('firstname' => $hint);
                 $hint .= ", $name";
             }
         }
     }
 }
-
-// Output "no suggestion" if no hint was found or output correct values 
-echo $hint === "" ? "no suggestion" : $hint;
+$taa = $lista[0];
+$lista2 = array('firstname' => $taa);
+$palauta = json_encode($lista2);
+// Output "no suggestion" if no hint was found or output correct values
+echo $hint === "" ? "no suggestion" : $palauta;
 ?>
