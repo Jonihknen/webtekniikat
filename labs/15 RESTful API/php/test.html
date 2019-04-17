@@ -7,7 +7,16 @@
   <body>
       
   <!-- call a Javascript function to send an XMLHttpRequest -->
-  
+  <script>
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
+      }
+    };
+    xmlhttp.open("GET", "php/grogram.php", true);
+    xmlhttp.send();
+  </script>
   <form action="geogram.php" method="get">
     <input type="text" name="location"/>
     <button type="submit">Submit</button>
@@ -23,5 +32,6 @@
       }
     }
     ?>
+  <p id="teksti"></p>
   </body>
 </html>

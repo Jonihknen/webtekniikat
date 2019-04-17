@@ -9,6 +9,7 @@ if (!empty($_GET['location'])){
   /**
    * Here we build the url we'll be using to access the google maps api
    */
+
   $maps_url = 'https://'.
   'maps.googleapis.com/'.
   'maps/api/geocode/json'.
@@ -30,6 +31,7 @@ if (!empty($_GET['location'])){
   $instagram_array = json_decode($instagram_json, true);
   
  // give it back to Javascript
+    echo $lat;
   
 }
 ?>
